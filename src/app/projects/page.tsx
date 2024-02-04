@@ -35,7 +35,6 @@ export default function Projects() {
               <TableHead className="font-semibold">Project</TableHead>
               <TableHead className="font-semibold">Built with</TableHead>
               <TableHead className="font-semibold">Links</TableHead>
-              <TableHead className="font-semibold">Github</TableHead>
             </TableRow>
           </TableHeader>
           <TableBody>
@@ -95,8 +94,6 @@ export default function Projects() {
                   Deployed Site
                   <ExternalLink size={18} />
                 </a>
-              </TableCell>
-              <TableCell>
                 <a
                   href="https://github.com/admclamb/weatherly"
                   target="_blank"
@@ -132,8 +129,6 @@ export default function Projects() {
                   Deployed Site
                   <ExternalLink size={18} />
                 </a>
-              </TableCell>
-              <TableCell>
                 <a
                   href="https://github.com/ZhiZheng0889/china-garden-big-pine"
                   target="_blank"
@@ -168,9 +163,7 @@ export default function Projects() {
                 >
                   Deployed Site
                   <ExternalLink size={18} />
-                </a>
-              </TableCell>
-              <TableCell>
+                </a>{" "}
                 <a
                   href="https://github.com/algo-wars/algowars"
                   target="_blank"
