@@ -32,7 +32,7 @@ export default function Hero() {
           <li>
             <Link
               href="/#contact"
-              className={`${buttonVariants({ variant: "secondary" })} w-28`}
+              className={`${buttonVariants({ variant: "outline" })} w-28`}
             >
               Contact
             </Link>
