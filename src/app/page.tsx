@@ -9,13 +9,8 @@ export default function Home() {
     <Layout>
       <Hero />
       <Container>
-        <div className="py-5 grid grid-cols-12 gap-5">
-          <section className="col-span-8 flex flex-col gap-5">
-            <Work />
-          </section>
-          <aside className="col-span-4 flex flex-col gap-5">
-            <FeaturedProjects />
-          </aside>
+        <div className="py-5">
+          <Work />
         </div>
       </Container>
     </Layout>
