@@ -53,7 +53,7 @@ export default function ProjectHeader({
             ) : null}
             {githubLink ? (
               <a
-                href={deployLink}
+                href={githubLink}
                 target="_blank"
                 rel="noopener noreferrer"
                 className={`w-28 ${buttonVariants({ variant: "outline" })}`}

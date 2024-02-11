@@ -1,6 +1,5 @@
 import Hero from "@/components/hero/hero";
-import FeaturedProjects from "@/features/projects/featured-projects/featured-projects";
-import Work from "@/features/work/work";
+import FeaturedProjectsAlt from "@/features/projects/featured-projects-alt/featured-projects-alt";
 import Container from "@/layout/container/container";
 import Layout from "@/layout/layout";
 
@@ -10,7 +9,7 @@ export default function Home() {
       <Hero />
       <Container>
         <div className="py-5">
-          <Work />
+          <FeaturedProjectsAlt />
         </div>
       </Container>
     </Layout>
